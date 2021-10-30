@@ -51,7 +51,7 @@ int main()
 			std::cout << matrix[i][j] << " ";
 		std::cout << std::endl;
 	}
-	for (int i; i < n; i++)
+	for (int i = 0; i < n; i++)
 		delete[] matrix[i];
 	delete[] matrix;
 }
