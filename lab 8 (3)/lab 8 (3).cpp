@@ -6,7 +6,6 @@
 #define M 100
 int main()
 {
-	//int matrix[N][M];
 	int n, m;
 	std::cin >> n >> m;
 	int** matrix = new int* [n];
